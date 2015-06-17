@@ -16,7 +16,7 @@
     "mocha-lcov-reporter": "0.0.2"
   },
   "dependencies": {
-    "client": "git://github.com/utilise/client",
-    "log": "git://github.com/utilise/log"
+    "client": "git+https://github.com/utilise/client.git",
+    "log": "git+https://github.com/utilise/log.git"
   }
 }
