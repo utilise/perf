@@ -1,5 +1,5 @@
 {
-  "name": "perf",
+  "name": "utilise.perf",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "mocha-lcov-reporter": "0.0.2"
   },
   "dependencies": {
-    "client": "git+https://github.com/utilise/client.git",
-    "log": "git+https://github.com/utilise/log.git"
+    "utilise.client": "*",
+    "utilise.log": "*"
   }
 }

@@ -1,5 +1,5 @@
-var log = require('log')('[perf]')
-  , client = require('client')
+var log = require('utilise.log')('[perf]')
+  , client = require('utilise.client')
 
 module.exports =  function perf(fn) {
   var start = client ? performance.now() : process.hrtime()
